@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Maxfashion</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {font-family: "Lato", sans-serif}
+    .mySlides {display: none}
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+<div class="w3-top" >
+    <div class="w3-bar w3-black w3-card">
+      <a  style="margin-left:40px;"href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOP</a>
+      
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+      <div style="margin-left:1370px">
+        <button type="button"  class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGOUT</div>
+
+    </div>
+  </div>
+    
+<h3 style="margin-left:50px;margin-top:50px;font-weight: bold;">Welcome <span style="color:navy" id="username">user</span></h3>
+    
+                        <div  style="height: 450px;margin-top: 10px;">
+                            <img width="1550px;" class="img-fluid "
+                                src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedAD8AF927.lmsin.net/MAX-Friday/MAX2.O/MAX-Uber-HP-Desktop-HeroBanner5-01SEP23.gif"
+                                alt="Image">
+
+                        </div>
+                         <!-- The Contact Section -->
+  <div class="  w3-padding-64" >
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form >
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" >
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" >
+          <button class="w3-button w3-black w3-section w3-right" type="button">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+</body>
+<script>
+    let user = localStorage.getItem("user")
+    username.innerHTML = user
+</script>
+</html>
